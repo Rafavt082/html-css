@@ -1,0 +1,16 @@
+* {
+    body {
+        /*16 pixels é geralmente o tamanho normal da fonte*/
+        font-family: arial;
+        font-size: 18px;
+    }
+    h1 {
+        font-style: inherit;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: lighter;
+    }
+    /*font-style- font-weight font-size font-family*/
+    h2 {
+        font: italic lighter 2em arial;
+    }
+}

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(96, 93, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter 18px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(65, 63, 167) ;
+}
+
+h1#principal {
+    color: rgb(0, 81, 255);
+}
+
+h2 {
+    color: rgb(33, 32, 78);
+}
+.básico {
+    color: rgb(0, 255, 85);
+}
+.avançado {
+    color: rgb(255, 0, 0);
+}
