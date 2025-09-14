@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on"></form>
+    <p><label for="inome">Nome</label>
+    <input type="text" name="nome" id="inome" required maxlength="30" autocomplete="name"></p>
+    <p>
+        <label for="imedia">Média</label>
+        <input type="number" name="media" id="imedia" step="0.5" min="0" max="10">
+    </p>
+
+<p>
+    <label for="idate">Data</label>
+    <input type="date" name="date" id="idate" value="14-09-2025">
+</p>
+
+    <p>
+        <label for="imail">E-mail</label>
+        <input type="email" name="mail" id="imail" autocomplete="email" required>
+    </p>
+    <p>
+        <label for="itelefone">Telefone</label>
+        <input type="tel" name="telefone" id="itelefone" autocomplete="tel">
+    </p>
+    
+</body>
+</html>
